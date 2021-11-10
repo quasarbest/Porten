@@ -1,0 +1,110 @@
+@media screen and (min-width: 1025px) {
+   .menu_btn {
+      display: none;
+   }
+   .menu_active {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 1025px) {
+   .right_block-options {
+      display: none;
+   }
+   .wrapper-block-1 {
+      flex-wrap: wrap;
+   }
+   .left_inner_content_clock {
+      width: 100%;
+   }
+   .right_inner_content_in_img {
+      width: 100%;
+   }
+   .inner_in_block {
+      width: 100%;
+   }
+   .inner_in_block p {
+      width: 98%;
+   }
+}
+
+@media screen and (max-width: 1025px) {
+   .left_inner_mode span,
+   a {
+      padding: 4px;
+   }
+   .right_inner_login {
+      padding: 4px;
+   }
+   .wrapper-block-1 {
+      flex-wrap: wrap;
+   }
+   .left_inner_content_clock {
+      width: 100%;
+      height: auto;
+      min-height: auto;
+   }
+   .right_inner_content_in_img {
+      width: 100%;
+      min-height: auto;
+      background-position: top;
+   }
+   .left_inner_content_in_img {
+      display: none;
+   }
+   .right_inner_collection {
+      width: 100%;
+   }
+   .inner_all_content {
+      width: 99%;
+   }
+   .inner_clock {
+      padding: 5px;
+   }
+   .under_inner_img_brends {
+      width: 99%;
+   }
+   .under_inner_img_brends img {
+      margin: 0px;
+   }
+   .right_inner_collection {
+      min-height: 35vh;
+   }
+}
+
+@media screen and (max-width: 1850px) {
+   .left_inner_mode span {
+      margin: 5px;
+   }
+   .right_inner_login a {
+      margin: 5px;
+   }
+}
+
+@media screen and (max-width: 1025px) {
+   .inner_content {
+      display: none;
+   }
+   .under_text_content {
+      width: 100%;
+   }
+   .inner_content_middle_header {
+      width: 90%;
+   }
+}
+
+@media screen and (max-width: 800px) {
+   .inner_block_line {
+      min-width: 250px;
+      min-height: 250px;
+   }
+   .under_big_header {
+      min-height: 600px;
+   }
+   .inner_clock {
+      width: 100%;
+   }
+   .under_content_block {
+      flex-wrap: wrap;
+   }
+}
